@@ -8,7 +8,7 @@ function main() {
 
   const command = commands[0];
 
-  if (command === "-f") {
+  if (command === "-f" || command === "--file") {
     const filePath = commands[1];
     const commandAction = commands[2];
 
